@@ -1,7 +1,9 @@
 import Grub from './Grub'
 
 class Bee {
-  // TODO..
+  constructor() {
+    this.age = 5;
+  }
 };
 
 export default Bee;
