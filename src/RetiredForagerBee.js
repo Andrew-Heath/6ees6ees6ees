@@ -5,6 +5,7 @@ class RetiredForagerBee extends ForagerBee{
     super();
     this.age = 40;
     this.job = 'gamble';
+    this.canFly = false;
   }
 };
 
