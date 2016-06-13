@@ -3,8 +3,8 @@ import Grub from './Grub'
 class Bee extends Grub {
   constructor() {
     super();
-    age = 5;
-    color = 'yellow';
+    this.age = 5;
+    this.color = 'yellow';
   }
 };
 
