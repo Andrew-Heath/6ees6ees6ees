@@ -4,6 +4,9 @@ class Grub {
     this.color = 'pink';
     this.food = 'jelly';
   }
+  eat() {
+    //return '' + this.food;
+  }
 };
 
 export default Grub;
