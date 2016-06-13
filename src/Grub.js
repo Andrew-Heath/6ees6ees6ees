@@ -5,7 +5,7 @@ class Grub {
     this.food = 'jelly';
   }
   eat() {
-    //return '' + this.food;
+    return 'Mmmmmmmmm ' + this.food;
   }
 };
 
