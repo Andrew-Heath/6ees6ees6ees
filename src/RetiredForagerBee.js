@@ -8,6 +8,9 @@ class RetiredForagerBee extends ForagerBee{
     this.canFly = false;
     this.color = 'grey';
   }
+  forage() {
+    return 'I am too old, let me play cards instead';
+  }
 };
 
 export default RetiredForagerBee;
