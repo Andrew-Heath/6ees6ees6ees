@@ -8,6 +8,9 @@ class ForagerBee extends Bee{
     this.canFly = true;
     this.treasureChest = [];
   }
+  forage(treasure) {
+    return this.treasureChest.push(treasure);
+  }
 };
 
 export default ForagerBee;
