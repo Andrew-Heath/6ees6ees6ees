@@ -10,6 +10,9 @@ class HoneyMakerBee extends Bee{
   makeHoney() {
     return this.honeyPot++;  
   }
+  giveHoney() {
+    return this.honeyPot--;
+  }
 };
 
 export default HoneyMakerBee;
